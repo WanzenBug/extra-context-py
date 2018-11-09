@@ -11,7 +11,7 @@ There are 2 options
   
 * Provide additional context as the exception/warning is passed up the call stack
   * Can be "opt-in" in user-code, no changes in libraries required.
-  * 
+  * Also works for warnings (which normally don't provide backtrace information)
 
 ## Examples
 
